@@ -1,0 +1,60 @@
+hr {
+    width: 100%;
+    border-color: #672111;;
+    margin: 20px 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    gap: 10px;
+}
+
+.form-container > * {
+    display: block;
+}
+
+.form-container > input {
+    width: 50%;
+}
+
+#radio {
+    width: 100%;
+}
+#radioinputs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: solid rgba(0, 0, 0, 0) 2px;
+    padding-inline: 5px;
+}
+
+
+.form-box-1 {
+    width: 665px;
+    margin: 40px 0;
+    padding: 3px;
+    background-image: linear-gradient(135deg, #21630d, #0a501c);
+    box-shadow: 3px 3px 5px rgb(143, 143, 143);
+}
+
+.form-box-2 {
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type = "submit"] {
+    align-self: end;
+}
+
+a {
+    text-align: end;
+}
