@@ -41,7 +41,7 @@
                         <td>$row[2]</td>
                         <td>$row[3]</td>
                         <td>
-                            <form action='./mostrar_usuarios.php' method='post' class='delete-form'>
+                            <form action='./editar_usuarios.php' method='post' class='delete-form'>
                                 <input type='hidden' id='inputHidden' name='editar' value='$row[0]'>
                                     <button type='submit' class='button'>editar</button>
                             </form>
